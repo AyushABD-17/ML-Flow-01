@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/0422574d0eab4131b8d8b761c05a054a/artifacts
+end_time: 1756893574088
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 0422574d0eab4131b8d8b761c05a054a
+run_name: resilient-elk-291
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756893569549
+status: 3
+tags: []
+user_id: ayush

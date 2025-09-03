@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/5e65729e44364d839e4dfe16a2a08a36/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 5e65729e44364d839e4dfe16a2a08a36
+run_name: trusting-bird-91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756893537063
+status: 1
+tags: []
+user_id: ayush

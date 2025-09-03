@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/8c3d86cac4d64450ac1d5bf7f37ceff5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 8c3d86cac4d64450ac1d5bf7f37ceff5
+run_name: dazzling-shark-525
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756893905755
+status: 1
+tags: []
+user_id: ayush

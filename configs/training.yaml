@@ -1,6 +1,6 @@
 defaults:
   - dataset: dataset
-  - model: logistic_regression
+  - model: logistic_regression  # change to xgboost when needed
   - _self_
 
 training:
