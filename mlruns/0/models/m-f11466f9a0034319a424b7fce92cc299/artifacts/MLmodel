@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/ayush/OneDrive/Desktop/Capsitech_Interns/Assesement01/Ml-Models/mlruns/0/models/m-f11466f9a0034319a424b7fce92cc299/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.2
+model_id: m-f11466f9a0034319a424b7fce92cc299
+model_size_bytes: 1006
+model_uuid: m-f11466f9a0034319a424b7fce92cc299
+prompts: null
+run_id: 2886d8c5ab614b2e99d6749e06f98d14
+utc_time_created: '2025-09-03 09:10:15.137094'

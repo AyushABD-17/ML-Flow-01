@@ -1,0 +1,10 @@
+dataset:
+  dataset:
+    path: ../../heart-2.csv
+    target: target
+model:
+  model:
+    name: logistic_regression
+    params:
+      C: 1.0
+      max_iter: 200

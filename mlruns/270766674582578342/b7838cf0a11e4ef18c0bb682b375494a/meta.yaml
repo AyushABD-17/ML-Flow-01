@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/270766674582578342/b7838cf0a11e4ef18c0bb682b375494a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '270766674582578342'
+lifecycle_stage: active
+run_id: b7838cf0a11e4ef18c0bb682b375494a
+run_name: stately-zebra-532
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756890784276
+status: 1
+tags: []
+user_id: ayush

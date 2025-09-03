@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/ayush/OneDrive/Desktop/Capsitech_Interns/Assesement01/Ml-Models/mlruns/0/models/m-f11466f9a0034319a424b7fce92cc299/artifacts
+creation_timestamp: 1756890615092
+experiment_id: '0'
+last_updated_timestamp: 1756890619033
+model_id: m-f11466f9a0034319a424b7fce92cc299
+model_type: null
+name: model
+source_run_id: 2886d8c5ab614b2e99d6749e06f98d14
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/ayush/OneDrive/Desktop/Capsitech_Interns/Assesement01/Ml-Models/mlruns/0/01e6e80de75a4081bbe22f559c6164d5/artifacts
+end_time: 1756837456081
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01e6e80de75a4081bbe22f559c6164d5
+run_name: secretive-sheep-960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756837447912
+status: 3
+tags: []
+user_id: ayush
