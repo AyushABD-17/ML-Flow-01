@@ -1,0 +1,19 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - src/train.py
+    - data/processed.csv
+    params:
+    - model.n_estimators
+    - model.learning_rate
+    - model.max_depth
+    - model.subsample
+    - model.colsample_bytree
+    - model.random_state
+    outs:
+    - models/model.pkl
+    metrics:
+    - metrics.json
+  preprocess:
+    cmd: \
