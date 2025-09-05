@@ -1,8 +1,11 @@
 stages:
-  preprocess:
-    cmd: python src/preprocess.py data/raw.csv data/processed.csv
+  train:
+    cmd: python src/train.py
     deps:
-      - src/preprocess.py
-      - data/raw.csv
+      - src/train.py
+      - data/raw.csv   # directly use raw.csv instead of processed
+      - params.yaml
     outs:
-      - data/processed.csv
+      - models/model.pkl
+    metrics:
+      - metrics.json
