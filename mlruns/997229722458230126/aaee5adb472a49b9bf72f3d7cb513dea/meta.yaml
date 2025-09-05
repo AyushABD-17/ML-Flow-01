@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/aaee5adb472a49b9bf72f3d7cb513dea/artifacts
+end_time: 1757050067979
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: aaee5adb472a49b9bf72f3d7cb513dea
+run_name: intelligent-bear-9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757050053970
+status: 3
+tags: []
+user_id: ayush

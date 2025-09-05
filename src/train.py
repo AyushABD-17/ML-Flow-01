@@ -10,13 +10,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-# import xgboost
+
 from xgboost import XGBClassifier
 
 
 @hydra.main(version_base=None, config_path="../configs", config_name="training")
 def main(cfg: DictConfig):
-    # Load dataset
+    
     dataset_path = Path(hydra.utils.get_original_cwd()) / cfg.dataset.path
     data = pd.read_csv(dataset_path)
 
@@ -28,7 +28,7 @@ def main(cfg: DictConfig):
         random_state=cfg.training.random_state
     )
 
-    # MLflow setup
+    
     mlflow.set_tracking_uri("http://127.0.0.1:5000")
     mlflow.set_experiment("models_experiment")
 
@@ -52,20 +52,20 @@ def main(cfg: DictConfig):
         else:
             raise ValueError(f"Unsupported model: {cfg.model.type}")
 
-        # Train
+        
         model.fit(X_train, y_train)
         preds = model.predict(X_test)
 
         acc = accuracy_score(y_test, preds)
 
-        # Log params & metrics
+        
         mlflow.log_params(cfg.model.params)
         mlflow.log_metric("accuracy", acc)
 
-        # Save model
+        
         mlflow.sklearn.log_model(model, "model")
 
-        # --- ARTIFACT 1: Prediction Histogram ---
+        
         plt.figure()
         plt.hist(preds)
         plt.title("Prediction Distribution")
@@ -74,7 +74,7 @@ def main(cfg: DictConfig):
         mlflow.log_artifact(plot_path)
 
         
-        if len(set(y_test)) == 2:  # Only for binary classification
+        if len(set(y_test)) == 2:  
             if hasattr(model, "predict_proba"):
                 probs = model.predict_proba(X_test)[:, 1]
                 fpr, tpr, _ = roc_curve(y_test, probs)

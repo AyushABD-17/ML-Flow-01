@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = C:/Users/ayush/OneDrive/Desktop/Capsitech_Interns/Assesement01/Ml-Models/data

@@ -1,0 +1,9 @@
+dataset:
+  path: data/heart-2.csv
+  target: target
+model:
+  type: xgboost
+  params: 200
+training:
+  test_size: 0.2
+  random_state: 42

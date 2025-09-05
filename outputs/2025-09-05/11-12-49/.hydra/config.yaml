@@ -1,0 +1,14 @@
+dataset:
+  path: data/heart-2.csv
+  target: target
+model:
+  type: xgboost
+  params:
+    C: 1.0
+    max_iter: 1000
+    solver: lbfgs
+    n_estimators: 300
+    max_depth: 4
+training:
+  test_size: 0.2
+  random_state: 42

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/9d2c9565b97b402ca0f86e2730aec61c/artifacts
+end_time: 1757050825354
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 9d2c9565b97b402ca0f86e2730aec61c
+run_name: fun-toad-361
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757050820842
+status: 3
+tags: []
+user_id: ayush

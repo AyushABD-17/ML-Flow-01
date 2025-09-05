@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/fc6cae3acf2b4bb885959ee4c8a1bd5d/artifacts
+end_time: 1757050339358
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: fc6cae3acf2b4bb885959ee4c8a1bd5d
+run_name: dazzling-vole-629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757050334627
+status: 3
+tags: []
+user_id: ayush

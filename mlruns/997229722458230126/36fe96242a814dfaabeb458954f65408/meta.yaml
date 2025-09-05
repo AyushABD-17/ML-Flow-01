@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/36fe96242a814dfaabeb458954f65408/artifacts
+end_time: 1757053626623
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 36fe96242a814dfaabeb458954f65408
+run_name: hilarious-grub-908
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757053621879
+status: 3
+tags: []
+user_id: ayush
