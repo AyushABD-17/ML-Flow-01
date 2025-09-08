@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/23931617e50b44f8893a9cf3bec4acd4/artifacts
+end_time: 1757080246739
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 23931617e50b44f8893a9cf3bec4acd4
+run_name: thoughtful-bee-224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757080237736
+status: 3
+tags: []
+user_id: ayush

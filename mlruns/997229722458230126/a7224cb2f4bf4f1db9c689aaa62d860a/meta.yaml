@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/a7224cb2f4bf4f1db9c689aaa62d860a/artifacts
+end_time: 1757080571495
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: a7224cb2f4bf4f1db9c689aaa62d860a
+run_name: melodic-swan-200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757080566161
+status: 3
+tags: []
+user_id: ayush

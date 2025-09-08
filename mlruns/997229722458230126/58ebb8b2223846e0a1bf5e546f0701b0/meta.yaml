@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/997229722458230126/58ebb8b2223846e0a1bf5e546f0701b0/artifacts
+end_time: 1757080650915
+entry_point_name: ''
+experiment_id: '997229722458230126'
+lifecycle_stage: active
+run_id: 58ebb8b2223846e0a1bf5e546f0701b0
+run_name: incongruous-roo-102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757080645753
+status: 3
+tags: []
+user_id: ayush

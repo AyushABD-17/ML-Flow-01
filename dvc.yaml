@@ -3,9 +3,6 @@ stages:
     cmd: python src/train.py
     deps:
       - src/train.py
-      - data/raw.csv   # directly use raw.csv instead of processed
-      - params.yaml
-    outs:
-      - models/model.pkl
-    metrics:
-      - metrics.json
+      - data/raw.csv
+    
+    

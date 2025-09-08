@@ -1,0 +1,2 @@
+- model=xgboost
+- model.params.max_depth=10
